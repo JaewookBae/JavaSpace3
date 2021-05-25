@@ -11,16 +11,19 @@ public class SplitExample {
 		String str = "아이디, 이름, 패스워드";
 
 		// 방법1: split() 메소드 이용
-		String[] name = str.split(",");
-		for (String s : name)
+		String[] tokens = str.split(",");
+		for (String s : tokens)
+//		for(int i = 0; i < tokens.lenght; i++)
+//		System.out.println(tokens[i]);
 			System.out.println(s);
 
 		System.out.println();
 
 		// 방법2: StringTokenizer 이용
-		StringTokenizer st = new StringTokenizer(str);
+		StringTokenizer st = new StringTokenizer(str);//(str, ",", false)
 		while (st.hasMoreTokens()) {
-			System.out.println(st.nextToken(","));
+			String name = st.nextToken();
+			System.out.println(name);
 		}
 
 	}

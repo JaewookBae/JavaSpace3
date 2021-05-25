@@ -6,6 +6,10 @@ public class FindAndReplaceExample {
 
 		String str = "모든 프로그램은 자바 언어로 개발될 수 있다.";
 		int index = str.indexOf("자바");
+		int index2 = str.lastIndexOf("자바");
+		System.out.println(index);
+		System.out.println(index2);
+		
 		if (index == -1) {
 			System.out.println("자바 문자열이 포함되어 있지 않습니다.");
 		} else {

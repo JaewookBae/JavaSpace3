@@ -1,4 +1,4 @@
-package p04.synchron;
+package p04.synchron.block;
 //p.591
 public class MainThreadExample {
 

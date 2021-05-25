@@ -6,7 +6,7 @@ public class MemberExample {
 		
 		Member member = new Member("blue", "이파란");
 		System.out.println(member);
-
+		System.out.println(member.toString());
 	}
 
 }

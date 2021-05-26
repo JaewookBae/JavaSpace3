@@ -1,6 +1,6 @@
 package p03.object.hashcode;
 
-import p03.object.equals.Circle;
+import p03.object_equals.Circle;
 
 public class Name {
 

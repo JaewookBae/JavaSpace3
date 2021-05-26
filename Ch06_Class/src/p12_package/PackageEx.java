@@ -2,7 +2,9 @@ package p12_package;
 
 //import: java.lang - 기본패키지이므로 생략, 그 나머지는 반드시 표시
 import java.util.Scanner;
+
 import p11_final.Person;
+
 //static import
 import static java.lang.System.out;
 import static java.lang.Math.*;

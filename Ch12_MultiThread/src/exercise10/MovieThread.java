@@ -1,6 +1,6 @@
-package exercise;
+package exercise10;
 
-public class MovieThread2 extends Thread {
+public class MovieThread extends Thread {
 
 	@Override
 	public void run() {

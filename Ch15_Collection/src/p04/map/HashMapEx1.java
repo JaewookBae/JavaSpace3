@@ -7,7 +7,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+
 //p. 743 보충하기
+
 public class HashMapEx1 {
 
 	public static void main(String[] args) {
@@ -19,16 +21,20 @@ public class HashMapEx1 {
 		hm.put(new String("홍길동4"), new Integer(70));
 
 		System.out.println(hm);
-		
+
 		System.out.println("-----------------------");
 		
 		// entrySet(), iterator()
+
+		// iterator()
+
 		Set<Map.Entry<String, Integer>> set = hm.entrySet();
 		Iterator<Entry<String, Integer>> it = set.iterator();
 		while (it.hasNext()) {
 			Entry<String, Integer> e = it.next();
 			System.out.println("이름: " + e.getKey() + ", 점수: " + e.getValue());
 		}
+
 		System.out.println("-----------------------");
 		
 		//keySet(), iterator()
@@ -39,6 +45,7 @@ public class HashMapEx1 {
 			Integer value = hm.get(key);
 			System.out.println("이름: " + key + ", 점수: " + value);
 		}
+
 		System.out.println("참가자 명단: " + hm.keySet());
 	}
 

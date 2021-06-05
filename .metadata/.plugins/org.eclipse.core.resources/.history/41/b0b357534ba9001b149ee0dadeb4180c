@@ -1,0 +1,23 @@
+package study01;
+//변수 종류 테스트
+public class Variablekind {
+		
+		//인스턴스 멤버 변수
+		int memVar;
+		//static 멤버 변수
+		static int staticVar;
+		
+	public static void main(String[] args) {
+		//로컬 변수
+		int localVar;
+		
+		Variablekind vk1 = new Variablekind();
+		System.out.println("vk1.memVar = " + vk1.memVar);
+		System.out.println("vk1.staticVar = " + vk1.staticVar);
+		System.out.println("Variablkind.staticVar = " + staticVar);
+		System.out.println("staticVar = " + staticVar);
+		System.out.println(vk1.memVar);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package study15;
+
+import java.util.Scanner;
+
+public class UpdateAction implements Action {
+
+	@Override
+	public void execute(Scanner sc) {
+		
+
+	}
+
+}

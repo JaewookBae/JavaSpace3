@@ -1,0 +1,10 @@
+package p05.secondary_stream;
+
+public class DataOutputEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

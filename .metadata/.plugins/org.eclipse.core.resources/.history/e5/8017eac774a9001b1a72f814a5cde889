@@ -1,0 +1,17 @@
+package p03.unary;
+
+public class SignOperatorEx {
+
+	public static void main(String[] args) {
+		//Operation Operator Operation
+		//    a        +         b
+
+		int a = (int) (10+20+30.0);// 대입,산술
+		String s;
+		int i = 123;
+		s = i + "";// 연결연산자 : 숫자 + 문자열= 문자열
+		//int k = i + ""; - 불가
+		System.out.println(s);
+	}
+
+}

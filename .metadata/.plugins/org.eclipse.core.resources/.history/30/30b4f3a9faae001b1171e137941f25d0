@@ -1,0 +1,38 @@
+package p06.array;
+
+public class Person_Main {
+
+	public static void main(String[] args) {
+		
+		int a;
+		String str;
+		Person p;//선언
+		p =  new Person();
+		p =  new Person();
+
+		Person pa2 =  new Person();
+		Person pa3 =  new Person();
+
+		System.out.println("-----------------------");
+		Person[] pa;//선언
+		pa =  new Person[10];
+		
+		pa[0] = new Person();
+		pa[0].age = 30;
+		pa[0].name = "홍길동0";
+
+		pa[1] = new Person();
+		pa[1].age = 31;
+		pa[1].name = "홍길동1";
+		
+		pa[2] = new Person();
+		pa[2].age = 32;
+		pa[2].name = "홍길동2";
+		for(int i = 0; i<pa.length; i++) {
+			System.out.println(pa[i]);
+			System.out.println(pa[i].toString());
+			System.out.println(pa[i].name+" : "+pa[i].age);
+		}
+	}
+
+}

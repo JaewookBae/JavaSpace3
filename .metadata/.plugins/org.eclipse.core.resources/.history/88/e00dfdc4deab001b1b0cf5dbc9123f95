@@ -1,0 +1,11 @@
+package p04.binary;
+//입력값의 NaN검사: 실수를 입력받을때는 반드시 NanN 검사
+public class InputDataCheckNaN {
+
+	public static void main(String[] args) {
+		String userInput = "NaN";
+		double val = Double.valueOf(userInput);
+	System.out.println(val);
+	}
+
+}

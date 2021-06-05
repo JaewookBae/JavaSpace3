@@ -1,0 +1,28 @@
+package p04.binary;
+
+public class BitReverseOperatorEx {
+
+	public static void main(String[] args) {
+		BitReverseOperatorEx bo = new BitReverseOperatorEx();
+		
+		int v1 = 10; //00000000 00000000 00000000 00001010
+		int v2 = ~v1; // ~ : not : 0101
+		int v3 = ~v1+1; // ~ : not : 0110
+		System.out.println(bo.toBinaryString(v1)+"(십진수: " + v1 + ")");
+		System.out.println(bo.toBinaryString(v2)+"(십진수: " + v2 + ")");
+		System.out.println(bo.toBinaryString(v3)+"(십진수: " + v3 + ")");
+		System.out.println();
+	}
+
+	public String toBinaryString(int value) {
+
+		String str = Integer.toBinaryString(value);
+		System.out.println("str: " + str);
+		System.out.println("length() : " + str.length());
+		while(str.length() < 32) {
+			str = "0" +str;
+			System.out.println(str.length());
+		}
+		return str;
+	}
+}

@@ -1,0 +1,10 @@
+package p04.map;
+//HashTable: Map계열, Synchronized 메소드로 구성
+public class HashTableEx1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

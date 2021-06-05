@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;p01.start.kind&apos; to &apos;Kind&apos;&#x0D;&#x0A;- Original project: &apos;Ch01_Start&apos;&#x0D;&#x0A;- Original element: &apos;p01.start.kind&apos;&#x0D;&#x0A;- Renamed element: &apos;p01.start.Kind&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;kind&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;p01.start{kind.java[kind" matchStrategy="1" name="Kind" qualified="false" references="true" similarDeclarations="false" stamp="1619593854839" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package p05.secondary_stream;
+
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class DataInputStreamEx1 {
+
+	public static void main(String[] args) {
+
+		FileInputStream fi;
+		try {
+			fi = new FileInputStream("src/p05/secondary_stream/DataOutput.dat");
+			DataInputStream di = new DataInputStream(fi);
+			while (true) {
+				int data = di.readInt();
+				System.out.print(data + " ");
+			}
+		} catch (FileNotFoundException e) {
+			System.out.println("File is not found.");
+		} catch (IOException e) {
+
+		}
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package p04.map;
+
+import java.util.Enumeration;
+import java.util.Properties;
+
+public class PropertiesEx2 {
+
+	public static void main(String[] args) {
+		
+		Properties p = System.getProperties();
+		
+		Enumeration<?> enu = p.propertyNames();
+		System.out.println(p.keys());
+		System.out.println(p.values());
+		
+	}
+
+}

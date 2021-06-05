@@ -1,0 +1,14 @@
+package p06.array;
+
+public class Person {
+
+	String name;//30 31 32
+	int age;//홍길동0 홍길동1 홍길동2
+	
+	
+	@Override
+	public String toString() {
+		return name + " : " + age;
+	}
+	
+}

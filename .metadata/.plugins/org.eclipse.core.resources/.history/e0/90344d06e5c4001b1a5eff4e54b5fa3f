@@ -1,0 +1,10 @@
+package p01.charbased_reader_writer;
+
+public class ReaderEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

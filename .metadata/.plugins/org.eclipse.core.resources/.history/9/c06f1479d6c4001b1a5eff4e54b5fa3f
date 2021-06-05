@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+Label{
+	-fx-padding:5;
+}
+
+#lblID{
+	-fx-background-color: black; 
+	-fx-text-fill:yellow;
+}
+
+Label{
+	
+}

@@ -1,0 +1,15 @@
+package p04.binary;
+
+public class InfinityAndNaNCheckEx {
+
+	public static void main(String[] args) {
+		
+		int x = 10;
+		int y = 0;
+		
+		int z = x/y;
+		
+
+	}
+
+}

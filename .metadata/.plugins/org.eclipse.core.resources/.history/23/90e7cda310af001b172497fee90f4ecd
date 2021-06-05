@@ -1,0 +1,12 @@
+package p0507.work;
+
+public class Student {
+
+	String name;
+	int kor;
+	int math;
+	int eng;
+	
+	
+	
+}

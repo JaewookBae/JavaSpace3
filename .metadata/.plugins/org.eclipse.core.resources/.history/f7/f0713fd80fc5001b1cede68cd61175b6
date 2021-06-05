@@ -1,0 +1,11 @@
+package study15;
+
+public class MemberMain {
+
+	static MemberVO[] members;
+	public static void main(String[] args) {
+		
+
+	}
+
+}

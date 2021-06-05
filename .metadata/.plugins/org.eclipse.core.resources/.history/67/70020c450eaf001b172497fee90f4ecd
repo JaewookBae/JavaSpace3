@@ -1,0 +1,34 @@
+package p0507.work;
+
+import java.util.Scanner;
+
+public class SchoolMain {
+
+	public static void main(String[] args) {
+		
+		Student student = new Student();
+		
+		while(true) {
+			
+		
+		System.out.println("1. 학생 정보 입력");
+		System.out.println("2. 학생 총점 입력");
+		System.out.println("3. 학생 평균 입력");
+		System.out.println("4. 프로그램 종료");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		switch (student) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+		}
+
+	}
+
+}

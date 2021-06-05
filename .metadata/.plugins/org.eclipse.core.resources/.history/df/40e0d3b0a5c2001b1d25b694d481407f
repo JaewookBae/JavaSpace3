@@ -1,0 +1,24 @@
+package p05.search.comparable_comparator;
+
+import java.util.TreeSet;
+
+public class Person_ComparableEx {
+
+	public static void main(String[] args) {
+
+		TreeSet<Person> ts = new TreeSet<>();
+		try {
+			ts.add(new Person("홍길동", 5));
+			ts.add(new Person("알파고", 17));
+			ts.add(new Person("베타고", 23));
+			ts.add(new Person("베타고", 23));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println(ts);
+
+	}
+
+}

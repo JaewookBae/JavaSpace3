@@ -1,0 +1,14 @@
+package p04.map;
+
+public class Student {
+
+	public int sno;
+	public String name;
+	
+	public Student(int sno, String name) {
+		super();
+		this.sno = sno;
+		this.name = name;
+	}
+	
+}

@@ -1,0 +1,18 @@
+package p05.search;
+
+import java.util.TreeMap;
+
+public class TreeMapEx1 {
+
+	public static void main(String[] args) {
+		
+		TreeMap<Integer, String> tm = new TreeMap<>();
+		tm.put(new Integer(87), new String("홍길동1"));
+		tm.put(new Integer(98), new String("홍길동2"));
+		tm.put(new Integer(75), new String("홍길동3"));
+		tm.put(new Integer(100), new String("홍길동4"));
+		tm.put(new Integer(90), new String("홍길동5"));
+
+	}
+
+}

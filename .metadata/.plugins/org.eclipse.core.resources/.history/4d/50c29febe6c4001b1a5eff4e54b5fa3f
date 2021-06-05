@@ -1,0 +1,19 @@
+package p01.charbased_reader_writer;
+
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ReaderEx1 {
+// maven.txt 파일 내용 출력하기
+	public static void main(String[] args) {
+		
+		FileReader fr = null;
+		try {
+			fr = new FileReader("maven.txt");
+			System.out.println(fr);
+		} catch (IOException e) {
+				}
+
+	}
+
+}

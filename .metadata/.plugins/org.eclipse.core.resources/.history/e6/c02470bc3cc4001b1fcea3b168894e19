@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="150.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="400.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="100.0" spacing="20.0">
+               <children>
+                  <CheckBox fx:id="chk1" mnemonicParsing="false" onAction="#handleChkAction" text="안경" />
+                  <CheckBox fx:id="chk2" mnemonicParsing="false" onAction="#handleChkAction" text="모자" />
+                  <ImageView fx:id="checkImageView" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@geek.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            
+            <Separator orientation="VERTICAL" prefHeight="100.0" />
+            
+            <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0" spacing="20.0">
+               <children>
+                  <RadioButton fx:id="rad1" text="BubbleChart" userData="BubbleChart">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rad2" selected="true" text="BarChart" toggleGroup="$group" userData="BarChart" />
+                  <RadioButton fx:id="rad3" text="AreaChart" toggleGroup="$group" userData="AreaChart" />
+               </children></VBox>
+            <ImageView fx:id="radioImageView" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@BarChart.png" />
+               </image>
+            </ImageView>
+            
+         </children>
+      </HBox>
+   </center>
+   <bottom>
+      <Button fx:id="btnExit" mnemonicParsing="false" onAction="#handleBtnExitAction" text="Button" BorderPane.alignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@exit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </bottom>
+</BorderPane>

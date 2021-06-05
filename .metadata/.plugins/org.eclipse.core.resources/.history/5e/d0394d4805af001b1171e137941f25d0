@@ -1,0 +1,18 @@
+package p06.array;
+
+public class Array_Score {
+
+	public static void main(String[] args) {
+		//95, 71, 84, 93,,,87
+		
+		int sum = 0;
+		int arr[] = {95,71,84,93,87};
+		for(int s : arr)
+			sum += s;
+		System.out.println("점수 총합: " + sum);
+
+		double avg = sum/arr.length;
+		System.out.println("점수 평균: " + avg);
+	}
+
+}

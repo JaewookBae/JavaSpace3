@@ -1,0 +1,14 @@
+package exercise;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		int dice;
+		dice = (int)(Math.random()*6)+1;
+		while()
+		
+
+	}
+
+}

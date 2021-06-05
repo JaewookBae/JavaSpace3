@@ -1,0 +1,10 @@
+package p05.search.comparable_comparator;
+
+public class Person_ComparableEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

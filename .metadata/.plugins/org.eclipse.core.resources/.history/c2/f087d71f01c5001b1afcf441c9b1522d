@@ -1,0 +1,33 @@
+package p05.secondary_stream;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+// 보조 스트림
+public class DataOutputEx1 {
+
+	public static void main(String[] args) {
+
+		DataOutputStream ds = null;
+
+		try {
+			FileOutputStream fo = new FileOutputStream("DataOutput.dat"); // 주 스트림
+			ds = new DataOutputStream(fo); // 보조 스트림
+			int arr[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+			for (int i = 0; i < arr.length; i++)
+				try {
+					ds.write(arr[i]);
+				} catch (IOException e) {
+
+				}
+		} catch (FileNotFoundException e) {
+
+		}
+
+	}
+
+}

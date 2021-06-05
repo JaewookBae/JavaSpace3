@@ -1,0 +1,11 @@
+package study14_arraylist;
+
+public class BoardMain {
+
+	public static void main(String[] args) {
+		
+		BoardSVC boardSVC = new BoardSVC();
+
+	}
+
+}

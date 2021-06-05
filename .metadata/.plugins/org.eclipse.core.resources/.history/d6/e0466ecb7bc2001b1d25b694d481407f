@@ -1,0 +1,20 @@
+package p04.map;
+
+import java.util.Hashtable;
+
+//HashTable: Map계열, Synchronized 메소드로 구성
+//		   : 비동기화메소드: HashMap
+public class HashTableEx1 {
+
+	public static void main(String[] args) {
+		
+		Hashtable<String, String> ht = new Hashtable<String, String>();
+		ht.put("name", "홍길동");
+		ht.put("age", "20");
+		ht.put("address", "서울");
+		
+		System.out.println(ht);
+
+	}
+
+}

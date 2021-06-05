@@ -1,0 +1,16 @@
+package p06.array;
+
+public class Dog_Main {
+
+	public static void main(String[] args) {
+	
+		Dog d = new Dog();//객체 생성
+		Dog[] dg = new Dog[3];//배열 객체생성
+		dg[0] = new Dog("진도개", "진도");
+		dg[1] = new Dog();
+		dg[2] = new Dog();
+		
+
+	}
+
+}

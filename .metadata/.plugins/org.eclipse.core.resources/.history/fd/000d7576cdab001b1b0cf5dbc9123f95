@@ -1,0 +1,14 @@
+package p04.binary;
+
+public class Overflow {
+
+	public static void main(String[] args) {
+		
+		int x = 10;
+		int y = 10;
+		
+		int z = x*y;
+		System.out.println(z);
+	}
+
+}

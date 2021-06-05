@@ -1,0 +1,13 @@
+package p04.binary;
+
+public class OperatorEx {
+
+	public static void main(String[] args) {
+		//문자를 키보드 입력받아서 받은 문자가 숫자(0~9)이면 "입력하신 문자가 숫자입니다." 출력하기
+		//                        영문자(a~z, A~Z)이면 "입력하신 문자는 영문자입니다." 출력하기
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox prefHeight="60.0" prefWidth="361.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="lblID" prefHeight="60.0" prefWidth="128.0" text="검정바탕,노란글씨" />
+      <Label prefHeight="60.0" prefWidth="117.0" styleClass="lblClass" text="파란바탕,흰글씨" />
+      <Label prefHeight="60.0" prefWidth="117.0" styleClass="lblClass" text="파란바탕,흰글씨" />
+   </children>
+</HBox>

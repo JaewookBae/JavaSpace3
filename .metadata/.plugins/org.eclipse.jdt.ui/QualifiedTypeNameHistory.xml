@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.TreeMap"/>
-<fullyQualifiedTypeName name="java.util.NavigableMap"/>
-<fullyQualifiedTypeName name="java.util.function.IntBinaryOperator"/>
-<fullyQualifiedTypeName name="p06.method_reference.Calculator"/>
-<fullyQualifiedTypeName name="java.util.function.ToIntBiFunction"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.function.Function"/>
-<fullyQualifiedTypeName name="java.util.function.BiFunction"/>
-<fullyQualifiedTypeName name="java.awt.Container"/>
-<fullyQualifiedTypeName name="exercise.Container"/>
 <fullyQualifiedTypeName name="study14_arraylist.BoardVO"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="javafx.scene.shape.Circle"/>
@@ -54,10 +44,20 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.DataInputStream"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.io.EOFException"/>
 <fullyQualifiedTypeName name="javax.xml.ws.Action"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="p05.secondary_stream.GoodStrock"/>
+<fullyQualifiedTypeName name="p05.secondary_stream.GoodStock"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="p05.secondary_stream.BBSItem"/>
+<fullyQualifiedTypeName name="java.net.InetAddress"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
 </qualifiedTypeNameHistroy>

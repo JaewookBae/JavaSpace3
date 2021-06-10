@@ -35,8 +35,6 @@
 <fullyQualifiedTypeName name="java.net.InetAddress"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="study15.AddAction"/>
 <fullyQualifiedTypeName name="study15.ListAction"/>
 <fullyQualifiedTypeName name="study15.UpdateAction"/>
@@ -45,7 +43,6 @@
 <fullyQualifiedTypeName name="study15.DeleteAction"/>
 <fullyQualifiedTypeName name="study15.MemberService"/>
 <fullyQualifiedTypeName name="p02.chatting2.SenderThread"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
@@ -57,7 +54,10 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javafx.application.Application"/>
 <fullyQualifiedTypeName name="java.net.Socket"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="study17.jdbc.ConnectionTest"/>
 <fullyQualifiedTypeName name="study17.jdbc.CRUDTest"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

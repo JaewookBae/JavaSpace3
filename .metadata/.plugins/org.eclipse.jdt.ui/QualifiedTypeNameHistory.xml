@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
+=======
+<fullyQualifiedTypeName name="javafx.scene.control.Slider"/>
+>>>>>>> 6725ba3dcbaddcf8a9e452749a6e5e75646c9608
 <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
 <fullyQualifiedTypeName name="javafx.fxml.Initializable"/>
 <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
@@ -51,6 +55,7 @@
 <fullyQualifiedTypeName name="study17.jdbc.ConnectionTest"/>
 <fullyQualifiedTypeName name="study17.jdbc.CRUDTest"/>
 <fullyQualifiedTypeName name="study18.login.LoginSVC"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="mms.member.action.Action"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -60,4 +65,14 @@
 <fullyQualifiedTypeName name="mms.member.controller.MemberController"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+=======
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="mms.member.action.Action"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="mms.member.vo.Member"/>
+>>>>>>> 6725ba3dcbaddcf8a9e452749a6e5e75646c9608
 </qualifiedTypeNameHistroy>
